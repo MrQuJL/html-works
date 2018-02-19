@@ -1,0 +1,590 @@
+@charset 'UTF-8';
+/*** 公共类 开始 ***/
+.bor-r-fff{border-right:1px solid #fff;}
+.bor-l-e4{border-left:1px solid #e4e4e4;}
+i{color:#939393;font-size:16px;}
+.c-red{color:#cb210a;}
+.c-9c9{color:#9c9c9c;}
+.c-005{color:#005883;}
+.c-959{color:#959595;}
+.c-79a{color:#79a8c2;}
+.c-dfe{color:#dfe8e7}
+.c-2a6{color:#2a668b;}
+em{
+	width:0;
+	height:0;
+	border:8px solid #fff;
+	border-right:none;
+	border-top-color:transparent;
+	border-bottom-color:transparent;
+	left:48px;
+	top:7px;
+}
+.f-siz13{font-size:13px;}
+.f-sty{font-style:oblique;}
+
+.bor-l{border-left:8px solid #015885;}
+.bg-blu{background:#015584;}
+.bg-f8f{background:#f8f7f8;}
+.box-s{box-shadow:0px -9px 20px 0px #eee inset;}
+.box-w{box-shadow:0px -1px 13px 0px #fff inset;}
+
+.pointer:hover{
+	cursor:pointer;
+}
+
+/*** 公共类 结束 ***/
+/************************************
+=============网页头部================
+************************************/
+
+/*** search开始 ***/
+div#header div.search{
+	background:#343434;
+}
+div#header div.search div.search-content{
+	width:1000px;
+	height:45px;
+	margin:auto;
+	background:#343434;
+}
+div#header div.search div.search-content div.white{
+	width:210px;
+	height:0;
+	border-top:45px solid #fff;
+	border-left:20px solid #eee;
+	border-right:20px solid #eee;
+	border-bottom:46px solid #fff;
+	border-top:none;
+	border-left-color:transparent;
+	border-right-color:transparent;
+
+}
+div#header div.search div.search-content div.top-search input{
+	width:230px;
+	height:26px;
+	border:none;
+	outline:none;
+	border-radius:8px;
+	text-indent:8px;
+	margin:7px 10px 0 0;
+}
+div#header div.search div.search-content div.top-search a.c-fff{
+	display:inline-block;
+	width:70px;
+	text-align:center;
+	height:14px;
+	line-height:14px;
+}
+div#header div.search div.search-content div.top-search a:hover{
+	color:red;
+}
+div#header div.search div.search-content div.top-search img{
+	right:18px;
+	top:13px;
+}
+/*** search开始 ***/
+
+/*** nav开始 ***/
+div#header div.nav{
+	height:60px;
+	min-width:1000px;
+	box-shadow:0 -16px 35px 0px #ccc inset;
+}
+div#header div.nav div.nav-content{
+	width:1000px;
+	height:60px;
+	margin:auto;
+}
+div#header div.nav div.nav-content ul li{
+	width:90px;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+}
+div#header div.nav div.nav-content ul li.active a{
+	color:#406e8d;
+}
+div#header div.nav div.nav-content ul li:hover a{
+	color:#406e8d;
+}
+div#header div.nav div.nav-content ul li.last{
+	width:1px;
+	border-left:1px solid #e4e4e4;
+}
+div#header div.nav div.nav-content ul li.img{
+	width:250px;
+}
+div#header div.nav div.nav-content ul li.img img{
+	left:24px;
+	top:-19px;
+}
+/*** nav结束 ***/
+
+/*** banner开始 ***/
+div#header div.banner{
+	height:380px;
+	min-width:1000px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	box-shadow:0 20px 38px -6px #ccc; 
+}
+div#header div.banner ul.banner-pic{
+	min-width:1000px;
+	height:380px;
+}
+div#header div.banner ul.banner-pic li{
+	width:100%;
+	min-width:1000px;
+	height:380px;
+}
+div#header div.banner ul.banner-pic li#fis{
+	background:center/cover no-repeat url('../images/bg.jpg');
+}
+/******** 小圆点 ******/
+div#header div.banner ul.banner-dot{
+	left:50%;
+	margin-left:370px;
+	bottom:4%;
+}
+div#header div.banner ul.banner-dot li{
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	background:#fff;
+	margin-right:10px;
+	box-shadow:-2px -2px 8px 0px #1a1d1f inset;
+}
+div#header div.banner ul.banner-dot li.active{
+	background:#056597;
+}
+div#header div.banner ul.banner-dot li a{
+	width:16px;
+	height:16px;
+	display:inline-block;
+}
+/*** banner结束 ***/
+
+
+/************************************
+=============网页主体================
+************************************/
+
+/********* car-show开始 *********/
+div#main div.car-show{
+	width:1000px;
+	height:272px;
+	margin:auto;
+	margin-top:40px;
+}
+div#main div.car-show .show{
+	width:738px;
+	height:269px;
+	border:1px solid #dedede;
+	border-radius:4px;
+	background:#f8f8f8;
+}
+div#main div.car-show .show:hover{
+	box-shadow:0 0 24px 0 #ccc;
+	border:1px solid transparent;
+}
+div#main div.car-show .show > p{
+	width:700px;
+	height:44px;
+	line-height:44px;
+	margin-left:22px;
+	font-size:16px;
+	border-bottom:1px solid #dedede;
+}
+div#main div.car-show .show > p > a{
+	color:#025489;
+	font-weight:bold;
+}
+
+div#main div.car-show .show ul{
+	padding-top:16px;
+	padding-left:22px;
+}
+div#main div.car-show .show ul li{
+	padding-right:19px;
+}
+div#main div.car-show .show ul li img{
+	display:block;
+}
+div#main div.car-show .type{
+	width:230px;
+	height:270px;
+	margin:0 0 0 30px;
+}
+div#main div.car-show .type ul li{
+	width:228px;
+	height:30px;
+	line-height:30px;
+	border-radius:4px;
+	border:1px solid #000;
+	text-align:center;
+	margin-bottom:12px;
+	transition:0.5s;
+}
+div#main div.car-show .type ul li#big{
+	height:45px;
+	line-height:45px;
+	font-size:19px;
+	margin-bottom:15px;
+}
+div#main div.car-show .type ul li.bor-eee{
+	border:1px solid #ddd;
+}
+/********* car-introduce开始 *********/
+div#main div.car-introduce{
+	width:1000px;
+	height:266px;
+	margin:auto;
+	margin-top:40px;
+}
+
+div#main div.car-introduce div.left > ul{
+	width:230px;
+	height:266px;
+}
+div#main div.car-introduce div.left > ul li{
+	width:230px;
+	height:80px;
+	line-height:70px;
+	border-radius:4px;
+	background:#cecece;
+	border-top:1px solid transparent;
+	text-indent:20px;
+	margin-bottom:10px;
+}
+div#main div.car-introduce div.left > ul li div.inner-box{
+	width:226px;
+	height:68px;
+	margin:1px auto;
+	border-radius:4px;
+	background:#fff;
+	box-shadow:0px -28px 34px 1px #f0f0f1 inset;
+	transition:0.8s;
+}
+div#main div.car-introduce div.left > ul li div.inner-box:hover{
+	text-indent:50px;
+}
+
+div#main div.car-introduce div.center{
+	width:298px;
+	height:262px;
+	border:1px solid #cecece;
+	margin-left:30px;
+	background:#f8f8f8;
+	border-radius:4px;
+}
+div#main div.car-introduce div.center:hover{
+	box-shadow:0 0 24px 0 #ccc;
+	border:1px solid transparent;
+}
+div#main div.car-introduce div.center p.about{
+	width:260px;
+	height:34px;
+	line-height:34px;
+	margin:0 0 0 20px;
+	border-bottom:1px solid #dedede;
+}
+div#main div.car-introduce div.center a.img{
+	display:block;
+	width:258px;
+	height:82px;
+	margin:14px auto 0;
+}
+div#main div.car-introduce div.center p.about-content{
+	width:260px;
+	height:92px;
+	margin:15px auto;
+	text-indent:2em;
+}
+div#main div.car-introduce div.center p.about-content:hover a{
+	color:#015584;
+}
+
+div#main div.car-introduce div.right{
+	width:410px;
+	height:260px;
+	border:1px solid #dedede;
+	border-radius:4px;
+	margin-left:24px;
+	background:#f8f8f8;
+}
+div#main div.car-introduce div.right:hover{
+	border:1px solid transparent;
+	box-shadow:0 0 24px 0 #ccc;
+}
+div#main div.car-introduce div.right p.news{
+	width:378px;
+	height:36px;
+	margin:10px auto;
+	border-bottom:1px solid #dedede;
+}
+div#main div.car-introduce div.right p.news a.more{
+	display:inline-block;
+	margin-left:192px;
+}
+div#main div.car-introduce div.right div.binli{
+	width:378px;
+	height:92px;
+	margin:auto;
+	border-bottom:1px dashed #cdcdcd;
+	padding-top:10px;
+}
+div#main div.car-introduce div.right div.binli img{
+	margin-left:20px;
+}
+div#main div.car-introduce div.right div.binli div.binli-content{
+	width:228px;
+	height:74px;
+	padding-left:12px;
+}
+div#main div.car-introduce div.right div.binli div.binli-content a.title{
+	display:inline-block;
+	padding-bottom:14px;
+}
+div#main div.car-introduce div.right div.binli div.binli-content a.title-content{
+	color:#666;
+	text-indent:20px;
+	display:inline-block;
+	padding-left:10px;
+}
+div#main div.car-introduce div.right div.binli div.binli-content a.title-content:hover{
+	color:#015584;
+}
+div#main div.car-introduce div.right ul{
+	list-style:square;
+	width:378px;
+}
+div#main div.car-introduce div.right ul li{
+	margin-left:40px;
+	line-height:24px;
+}
+div#main div.car-introduce div.right ul li a{
+	transition:padding-left 1s;
+}
+div#main div.car-introduce div.right ul li a.l:hover{
+	color:red;
+	padding-left:20px;
+}
+
+/********* car-example开始 *********/
+div#main div.car-example{
+	width:1000px;
+	height:242px;
+	margin:20px auto;
+}
+div#main div.car-example div.ex{
+	width:738px;
+	height:242px;
+	border-radius:4px;
+	background:#f8f8f8;
+}
+div#main div.car-example div.ex:hover{
+	box-shadow:0 0 24px 0 #ccc;
+}
+div#main div.car-example div.ex p.user{
+	width:700px;
+    height:40px;
+	line-height:40px;
+	margin-left:20px;
+	border-bottom:1px solid #dedede;
+}
+div#main div.car-example div.ex ul{
+	margin:14px 0 0 20px;
+}
+div#main div.car-example div.ex ul li{
+	margin-right:19px;
+}
+div#main div.car-example div.ex ul li a{
+	transition:0.5s padding-left;
+}
+div#main div.car-example div.ex ul li a:hover{
+	padding-left:10px;
+	color:red;
+}
+
+div#main div.car-example div.intro{
+	width:230px;
+	height:242px;
+	margin-left:29px;
+	border-radius:4px;
+	background:#f8f8f8;
+	border:1px solid #dedede;
+}
+div#main div.car-example div.intro:hover{
+	border:1px solid transparent;
+	box-shadow:0 0 24px 0 #ccc;
+}
+div#main div.car-example div.intro p.contant{
+	border-bottom:1px solid #dedede;
+	width:192px;
+	margin-left:20px;
+}
+div#main div.car-example div.intro ul{
+	margin-top:8px;
+}
+div#main div.car-example div.intro ul li a{
+	padding-left:24px;
+	line-height:28px;
+	color:#343434;
+	transition:1s padding-left;
+}
+div#main div.car-example div.intro ul li a:hover{
+	color:red;
+	padding-left:48px;
+}
+/********* car-process开始 *********/
+div#main div.car-process{
+	width:998px;
+	height:142px;
+	border-radius:4px;
+	margin:auto;
+	border:1px solid #cecece;
+	background:#f8f8f8;
+}
+div#main div.car-process:hover{
+	border:1px solid transparent;
+	box-shadow:0 0 24px 0 #ccc;
+	cursor:pointer;
+}
+div#main div.car-process p{
+	width:960px;
+	line-height:20px;
+	border-bottom:1px solid #dedede;
+}
+div#main div.car-process img{
+	margin:22px 0 0 20px;
+}
+/************************************
+=============联系客服================
+************************************/
+div#kefu{
+	width:106px;
+	border-radius:53px;
+	box-shadow:0 0 5px 2px #eee;
+	height:355px;
+	background:#fff;
+	right:54px;
+	top:220px;
+	font-size:12px;
+}
+div#kefu img.consult{
+	margin:20px 0 0 28px;
+}
+div#kefu img.talk{
+	margin:6px 0 18px 2px;
+}
+div#kefu img.weixin{
+	margin-left:18px;
+}
+div#kefu p{
+	text-align:center;
+}
+div#kefu p.phone{
+	border-bottom:1px dashed #cdcdcd;
+	padding-bottom:10px;
+}
+div#kefu p.hello{
+	margin-top:10px;
+}
+div#kefu div.dian{
+	width:8px;
+	height:8px;
+	background:#48494b;
+	border-radius:50%;
+	margin:14px 0 0 48px;
+}
+div#kefu div.tiao{
+	width:1px;
+	height:20px;
+	border:1px solid #abb3be;
+	background:#e5e0dd;
+	margin:-4px 0 0 51px;
+}
+div#kefu div.yuan{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background:#1f6c9a;
+	box-shadow:-2px -4px 13px 0px rgba(25, 20, 22,1) inset;
+	margin-left:39px;
+	line-height:30px;
+	text-indent:4px;
+}
+div#kefu div.yuan a{
+	font-variant:small-caps;
+}
+
+
+
+
+
+
+
+
+/************************************
+=============网页底部================
+************************************/
+div#footer{
+	height:232px;
+	min-width:1000px;
+	border-top:12px solid #7f9bb0;
+	margin-top:30px;
+	background:#003e65;
+}
+div#footer div#footer-content{
+	width:1000px;
+	height:232px;
+	margin:auto;
+}
+div#footer div#footer-content div#link{
+	width:1000px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #003158;
+}
+div#footer div#footer-content div#link-content{
+	width:1000px;
+	height:190px;
+	margin:auto;
+	border-top:1px solid #025277;
+}
+div#footer div#footer-content div#link-content a:hover{
+	color:#c2ced5;
+}
+div#footer div#footer-content div#link-content ul#dot li{
+	width:90px;
+	height:32px;
+	margin-right:29px;
+	margin-top:20px;
+	font-size:12px;
+}
+div#footer div#footer-content div#link-content ul#dot li b{
+	width:2px;
+	height:2px;
+	background:#79a8c2;
+	right:4px;
+	bottom:62%;
+}
+div#footer div#footer-content div#link-content ul#shu li{
+	width:70px;
+	height:17px;
+	line-height:17px;
+	margin-top:10px;
+	border-right:1px solid #2e6381;
+	margin-right:18px;
+}
+div#footer div#footer-content div#link-content ul#shu li.spe{
+	border:none;
+}
+div#footer div#footer-content div#link-content p{
+	margin-top:26px;
+}
+div#footer div#footer-content div#link-content p.sss{
+	margin-top:20px;
+}
+
