@@ -1,0 +1,182 @@
+@charset 'UTF-8';
+
+/**********公共类开始***************/
+.pointer{cursor:pointer;}
+.pointer:hover{
+	color:#000;
+}
+.f-siz48{font-size:48px;}
+.w-800{width:800px;}
+.w-600{width:600px;}
+
+.h-282{height:282px;}
+.h-312{height:312px;}
+.w-281{width:281px;}
+
+.w-line{
+	width:172px;
+	height:2px;
+	background:#d3d3d3;
+}
+
+.f-siz13{font-size:13px;}
+.f-fam{font-family:'Times New Roman';}
+.l-high25{line-height:25px;}
+.mar-b26{margin-bottom:26px;}
+
+input.detail{
+	width:112px;
+	height:38px;
+	line-height:38px;
+	border:none;
+	outline:none;
+	text-align:center;
+	border-radius:19px;
+	background:#43c77b;
+	color:#fff;
+	cursor:pointer;
+}
+input.detail:hover{
+	box-shadow:0 0 24px 0 #000;
+}
+
+.mar-at{margin:auto;}
+.mar-r40{margin-right:40px;}
+.mar-t60{margin-top:60px;}
+.mar-b30{margin-bottom:30px;}
+
+.mar-r38{margin-right:38px;}
+.mar-t62{margin-top:62px;}
+.mar-t40{margin-top:40px;}
+
+.c-2d2{color:#2d2828;}
+.c-5a5{color:#5a5a5a;}
+
+
+/***********公共类结束***************/
+
+/****************************
+======== 网页头部 ===========
+*****************************/
+div.header{
+	width:800px;
+	height:550px;
+	margin:auto;
+	background:url('../images/bg.png') center/100% 100% no-repeat;
+}
+div.header div.header-content{
+	width:600px;
+	height:550px;
+	margin:auto;
+	border:1px solid transparent;
+}
+div.header div.header-content img{
+	display:block;
+	width:120px;
+	height:48px;
+	margin:60px auto 0px;
+	cursor:pointer;
+}
+div.header div.header-content ul{
+	width:360px;
+	margin:60px auto 74px;
+}
+div.header div.header-content ul li{
+	padding:0 15px;
+}
+div.header div.header-content ul li a:hover{
+	color:#ccc;
+}
+div.header div.header-content p.content{
+	margin:auto;
+	width:568px;
+	font-family:'Times New Roman';
+}
+div.header div.header-content p.content:hover a{
+	color:#ccc;
+}
+div.header div.header-content p.line{
+	width:350px;
+	height:1px;
+	margin:10px auto 30px;
+	background:#9fa19d;
+}
+div.header div.header-content input{
+	display:block;
+	width:224px;
+	height:56px;
+	border-radius:28px;
+	margin:auto;
+	border:none;
+	outline:none;
+	background:#43c77b;
+	cursor:pointer;
+}
+div.header div.header-content input:hover{
+	box-shadow:0 0 24px 0 #fff;
+}
+
+/****************************
+======== 网页主体 ===========
+*****************************/
+div.main .main-1{
+	background:#f5f5f5;
+}
+div.main .main-1 .main-1-content{
+	height:270px;
+}
+div.main .main-1 ul li{
+	width:172px;
+	height:270px;
+	text-align:center;
+}
+div.main .main-1 ul li div p.pos-a{
+	left:50%;
+	margin-left:-55px;
+	top:-9px;
+	width:110px;
+	background:#f5f5f5;
+	font-family:'Times New Roman';
+}
+div.main .main-1 ul li > p{
+	font-family:'Times New Roman';
+}
+
+div.main .main-2 .main-2-content{
+	height:310px;
+}
+
+div.main .main-3{
+	background:#f5f5f5;
+}
+
+div.main .main-4 .main-4-content{
+	height:496px;
+}
+div.main .main-4 .main-4-content ul li{
+	height:496px;
+}
+
+div.main .main-5{
+	margin-top:30px;
+	background:#f5f5f5;
+}
+div.main .main-5 .main-5-content{
+	height:282px;
+}
+div.main .main-5 .main-5-content div{
+	border-top:1px solid transparent;
+}
+div.main .main-5 .main-5-content div h3{
+	margin-top:60px;
+}
+/****************************
+======== 网页底部 ===========
+*****************************/
+div.footer{
+	background:#43c77b;
+}
+div.footer .footer-content ul{
+	height:70px;
+	line-height:70px;
+}

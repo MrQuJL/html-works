@@ -1,0 +1,37 @@
+@charset 'utf-8';
+div.qjl_hover{
+	width:235px;
+	height:255px;
+	background:rgba(101,186,153,.6);
+	position:absolute;
+	top:0;
+	left:0;
+}
+div.qjl_hover img.center{
+	position:absolute;
+	left:50%;
+	top:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+div.qjl_hover ul{
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	transform:translatex(-50%);
+}
+div.qjl_hover ul:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+div.qjl_hover ul li{
+	float:left;
+	padding-right:16px;
+}
+div.qjl_hover ul li:last-child{
+	padding-right:0;
+}
